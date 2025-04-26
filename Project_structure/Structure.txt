@@ -1,0 +1,60 @@
+shopme-project/
+│
+├── backend/                             # Spring Boot + MongoDB Backend
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/shopme/
+│   │   │   │       ├── controller/      # REST API controllers
+│   │   │   │       ├── model/           # MongoDB models/schemas
+│   │   │   │       ├── repository/      # MongoDB repositories
+│   │   │   │       ├── service/         # Business logic
+│   │   │   │       └── ShopMeApplication.java
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       └── static/              # Static files (optional)
+│   │   │
+│   │   └── test/                        # Unit and integration tests
+│   │
+│   └── pom.xml                          # Maven dependencies
+│
+├── frontend/                            # React.js Frontend
+│   ├── public/
+│   │   └── index.html
+│   │
+│   └── src/
+│       ├── assets/                      # Images, icons, fonts, etc.
+│       │   └── Images/
+│       │       └── WomensWear/
+│       │       └── MensWear/
+│       │
+│       ├── components/
+│       │   ├── navbar/                  # Navbar component
+│       │   │   ├── Navbar.jsx
+│       │   │   └── Navbar.css
+│       │   │
+│       │   ├── pages/                   # Page components
+│       │   │   ├── About.jsx
+│       │   │   ├── Cart.jsx
+│       │   │   ├── Contact.jsx
+│       │   │   ├── MensWear.jsx
+│       │   │   ├── WomensWear.jsx
+│       │   │   └── Payment.jsx
+│       │
+│       ├── services/                    # API calls to backend
+│       │   └── api.js
+│       │
+│       ├── App.js
+│       ├── index.js
+│       ├── App.css
+│       └── tailwind.config.js          # (if using Tailwind CSS)
+│
+├── README.md
+└── .gitignore
+
+# MongoDB Config
+spring.data.mongodb.uri=mongodb://localhost:27017/shopme
+server.port=8080
+
+# Enable CORS (for React frontend requests)
+spring.web.cors.allowed-origins=http://localhost:3000
