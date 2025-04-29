@@ -17,7 +17,7 @@ import hb from '../Images/hockey/Hockey Puck.jpg';
 import hc from '../Images/hockey/Hockey Gloves.jpg';
 import hd from '../Images/hockey/Hockey Pads.jpg';
 
-import ba from '../Images/basketball/Basketball.jpg';
+import ba from '../Images/basketball/basketball.jpg';
 import bb from '../Images/basketball/Basketball Shoes.jpg';
 import bc from '../Images/basketball/Basketball Hoop.jpg';
 import bd from '../Images/basketball/Knee Pads.jpg';
