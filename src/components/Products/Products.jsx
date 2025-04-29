@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from "../Images/gym/Gymw.jpg";
+import Img1 from "../Images/gym/gymw.jpg";
 import Img2 from "../Images/football/Footballw.jpg";
 import Img3 from "../Images/hockey/Hockeyw.jpg";
 import Img4 from "../Images/badminton/Badmintonw.jpg";
