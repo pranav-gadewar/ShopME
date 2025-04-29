@@ -1,9 +1,9 @@
 import React from "react";
 import Img1 from "../Images/gym/gymw.jpg";
-import Img2 from "../Images/football/footballw.jpg";
+import Img2 from "../Images/football/Footballw.jpg";
 import Img3 from "../Images/hockey/Hockeyw.jpg";
 import Img4 from "../Images/badminton/Badmintonw.jpg";
-import Img5 from "../Images/basketball/Basketballw.jpg";
+import Img5 from "../Images/Basketball/Basketballw.jpg";
 import { FaStar } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom"; // To handle redirects
 
