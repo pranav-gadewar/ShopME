@@ -17,10 +17,10 @@ import hb from '../Images/hockey/Hockey Puck.jpg';
 import hc from '../Images/hockey/Hockey Gloves.jpg';
 import hd from '../Images/hockey/Hockey Pads.jpg';
 
-import ba from '../Images/basketball/basketball.jpg';
-import bb from '../Images/basketball/Basketball Shoes.jpg';
-import bc from '../Images/basketball/Basketball Hoop.jpg';
-import bd from '../Images/basketball/Knee Pads.jpg';
+import ba from '../Images/Basketball/basketball.jpg';
+import bb from '../Images/Basketball/Basketball Shoes.jpg';
+import bc from '../Images/Basketball/Basketball Hoop.jpg';
+import bd from '../Images/Basketball/Knee Pads.jpg';
 
 import ja from '../Images/badminton/Badminton Racket.jpg';
 import jb from '../Images/badminton/Shuttlecocks.jpg';
